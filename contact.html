@@ -157,8 +157,9 @@
             <form
               class="form-area "
               id="myForm"
-              action="mail.php"
+              data-netlify="true" 
               method="post"
+              name="contact"
               class="contact-form text-right"
             >
               <div class="row">
@@ -199,9 +200,9 @@
                   <textarea
                     class="common-textarea form-control"
                     name="message"
-                    placeholder="Messege"
+                    placeholder="Message"
                     onfocus="this.placeholder = ''"
-                    onblur="this.placeholder = 'Messege'"
+                    onblur="this.placeholder = 'Message'"
                     required=""
                   ></textarea>
                   <button
@@ -252,8 +253,9 @@
                 <form
                   target="_blank"
                   novalidate="true"
-                  action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                  method="get"
+                  data-netlify="true"
+                  name="Newsletter"
+                  method="POST"
                   class="form-inline"
                 >
                   <input
